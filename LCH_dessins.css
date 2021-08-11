@@ -1,0 +1,229 @@
+/* --------------------------------------- */
+/* -------------- MAIN 75VH -------------- */
+/* --------------------------------------- */
+
+/* ----------- CONTENEUR SLIDER ---------- */
+#CONTENEUR {
+	width: 100%;
+	height: 75vh;	
+    position: relative;
+/* --------------------------------------- */
+	background-color: rgb(175, 175, 175);
+/* --------------------------------------- */
+/* --------------------------------------- */
+	/*background-color: orange;*/
+/* --------------------------------------- */
+	}
+/* ----------- FIN CONTENEUR SLIDER ------ */
+/* ----------- SLIDER -------------------- */
+#slider {
+/* --------------------------------------- */
+	width: 70vh;
+	height: 70vh;
+/* --------------------------------------- */	
+	position: absolute;
+	top: 3vh;
+	left: 10vh;
+	overflow: hidden;
+	border: 0.2vh solid black;
+	box-shadow: 0px 0px 40px black;
+	background-image: url("LCH_imgs/dessins/ms_dessins.jpg");
+/* --------------------------------------- */
+	background-size: 70vh 70vh;
+/* --------------------------------------- */
+	}
+/* ----------- FIN SLIDER ---------------- */
+/* ----------- DEPLACEMENT IMG ----------- */
+#slider [id^='image']:target img {
+	top: 0;  
+	left: 0;
+	}
+/* ----------- FIN DEPLACEMENT IMG ------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------- ASPECT BOUTON ACTIF --------- */
+/* --------------------------------------- */
+#slider [id^='image']:target a {
+	background: rgb(244,192,38);
+	border: 0.2vh solid rgb(30,30,30);
+	width: 1.2vh;
+	height: 1.2vh;
+	}
+/* ----------- ANIMATION ----------------- */
+#slider [id^="image"] img {
+	position: absolute;
+	top: 0;
+/* ----------- POSITION DEPART IMG ------- */
+	left: -70vh;
+/* --------------------------------------- */
+	border: none;
+		-moz-transition: left 2s;
+	    -webkit-transition: left 2s;
+	    -o-transition: left 2s;
+    transition: left 2s;
+	}
+/* ----------- FIN ANIMATION ------------- */
+/* ----------- BOUTONS ------------------- */
+/* --------------------------------------- */
+/* ----------- ASPECT BOUTONS ------------ */
+/* --------------------------------------- */
+.slider-nav {
+	background: rgb(150, 150, 150);
+    border: 0.2vh solid rgb(30, 30, 30);
+	width: 1.2vh;
+	height: 1.2vh;
+	z-index: 20;
+	/*box-shadow: 0px 2px 2px white;*/
+	/*border-radius: 3.2vh; BOUTON CIRCULAIRE */
+	position: absolute;
+    bottom: 1vh;
+	}
+	/* --------------------------------------- */
+.slider-nav:hover {background: white;} 
+/* --------------------------------------- */
+#image-1 .slider-nav {right: 43vh;}
+#image-2 .slider-nav {right: 41vh;}
+#image-3 .slider-nav {right: 39vh;}
+#image-4 .slider-nav {right: 37vh;}
+#image-5 .slider-nav {right: 35vh;}
+#image-6 .slider-nav {right: 33vh;}
+#image-7 .slider-nav {right: 31vh;}
+#image-8 .slider-nav {right: 29vh;}
+#image-9 .slider-nav {right: 27vh;}
+#image-10 .slider-nav {right: 25vh;}
+/* --------------------------------------- */
+#image-11 .slider-nav {right: 23vh;}
+#image-12 .slider-nav {right: 21vh;}
+#image-13 .slider-nav {right: 19vh;}
+#image-14 .slider-nav {right: 17vh;}
+#image-15 .slider-nav {right: 15vh;}
+#image-16 .slider-nav {right: 13vh;}
+#image-17 .slider-nav {right: 11vh;}
+#image-18 .slider-nav {right: 9vh;}
+#image-19 .slider-nav {right: 7vh;}
+#image-20 .slider-nav {right: 5vh;}
+/* --------------------------------------- */
+#image-21 .slider-nav {right: 3vh;}
+#image-22 .slider-nav {right: 1vh;}
+/* --------------------------------------- */
+
+/* ----------- FIN BOUTONS --------------- */
+/* ----------- IMAGES DIAPO -------------- */
+img{width: 100%;}
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ FIN MAIN 75VH ------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) {
+/* -------------- MAIN 75VH -------------- */
+/* ----------- CONTENEUR SLIDER ---------- */
+#CONTENEUR{
+	width: 100vw;
+	height: 100%;
+    }
+/* ----------- SLIDER -------------------- */
+#slider {
+/* --------------------------------------- */
+	width: 70vw;
+	height: 70vw;
+/* --------------------------------------- */	
+	top: 15%;
+	left: 15vw;
+	border: 0.2vw solid black;
+	box-shadow: 0px 0px 40px black;
+	background-size: 60vw 60vw;
+	}
+}
+/* --------------------------------------- */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) and (max-width: 1025px){
+/* --------------------------------------- */
+#image-1 .slider-nav {right: 42vw; bottom: 2vh;}
+#image-2 .slider-nav {right: 38vw; bottom: 2vh;}
+#image-3 .slider-nav {right: 34vw; bottom: 2vh;}
+#image-4 .slider-nav {right: 30vw; bottom: 2vh;}
+#image-5 .slider-nav {right: 26vw; bottom: 2vh;}
+#image-6 .slider-nav {right: 22vw; bottom: 2vh;}
+#image-7 .slider-nav {right: 18vw; bottom: 2vh;}
+#image-8 .slider-nav {right: 14vw; bottom: 2vh;}
+#image-9 .slider-nav {right: 10vw; bottom: 2vh;}
+#image-10 .slider-nav {right: 6vw; bottom: 2vh;}
+#image-11 .slider-nav {right: 2vw; bottom: 2vh;}
+/* --------------------------------------- */
+/* --------------------------------------- */
+#image-12 .slider-nav {right: 42vw; bottom: 0.2vh;}
+#image-13 .slider-nav {right: 38vw; bottom: 0.2vh;}
+#image-14 .slider-nav {right: 34vw;bottom: 0.2vh;}
+#image-15 .slider-nav {right: 30vw;bottom: 0.2vh;}
+#image-16 .slider-nav {right: 26vw;bottom: 0.2vh;}
+#image-17 .slider-nav {right: 22vw;bottom: 0.2vh;}
+#image-18 .slider-nav {right: 18vw;bottom: 0.2vh;}
+#image-19 .slider-nav {right: 14vw;bottom: 0.2vh;}
+#image-20 .slider-nav {right: 10vw;bottom: 0.2vh;}
+#image-21 .slider-nav {right: 6vw;bottom: 0.2vh;}
+#image-22 .slider-nav {right: 2vw;bottom: 0.2vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 959px){
+/* --------------------------------------- */
+/* -------- ASPECT BOUTON PAYSAGE -------- */
+/* --------------------------------------- */
+.slider-nav {
+	width: 2vh;
+	height: 2vh;
+    bottom: 1vh;
+	}
+/* --------------------------------------- */
+/* ----- ASPECT BOUTON ACTIF PAYSAGE ----- */
+/* --------------------------------------- */
+#slider [id^='image']:target a {
+	width: 2vh;
+	height: 2vh;
+	}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+#image-1 .slider-nav {right: 42vh; bottom: 4vh;}
+#image-2 .slider-nav {right: 38vh; bottom: 4vh;}
+#image-3 .slider-nav {right: 34vh; bottom: 4vh;}
+#image-4 .slider-nav {right: 30vh; bottom: 4vh;}
+#image-5 .slider-nav {right: 26vh; bottom: 4vh;}
+#image-6 .slider-nav {right: 22vh; bottom: 4vh;}
+#image-7 .slider-nav {right: 18vh; bottom: 4vh;}
+#image-8 .slider-nav {right: 14vh; bottom: 4vh;}
+#image-9 .slider-nav {right: 10vh; bottom: 4vh;}
+#image-10 .slider-nav {right: 6vh; bottom: 4vh;}
+#image-11 .slider-nav {right: 2vh; bottom: 4vh;}
+/* --------------------------------------- */
+/* --------------------------------------- */
+#image-12 .slider-nav {right: 42vh; bottom: 0.2vh;}
+#image-13 .slider-nav {right: 38vh; bottom: 0.2vh;}
+#image-14 .slider-nav {right: 34vh; bottom: 0.2vh;}
+#image-15 .slider-nav {right: 30vh; bottom: 0.2vh;}
+#image-16 .slider-nav {right: 26vh; bottom: 0.2vh;}
+#image-17 .slider-nav {right: 22vh; bottom: 0.2vh;}
+#image-18 .slider-nav {right: 18vh; bottom: 0.2vh;}
+#image-19 .slider-nav {right: 14vh; bottom: 0.2vh;}
+#image-20 .slider-nav {right: 10vh; bottom: 0.2vh;}
+#image-21 .slider-nav {right: 6vh; bottom: 0.2vh;}
+#image-22 .slider-nav {right: 2vh; bottom: 0.2vh;}
+/* --------------------------------------- */
+}
+/* ----------- FIN RESPONSIVE ------------ */
+/* --------------------------------------- */
+/* ----------- 2018/04/11 ---------------- */
+/* -------------------------------------- */

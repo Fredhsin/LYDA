@@ -1,0 +1,167 @@
+/* -------- MENU COULEUR TITRES --------- */
+#FRED_MAIN p{color: rgb(30,30,30);}
+#ARCHI p, #TROISDUN p, #TROISDDEUX p, #DEUXD p{
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: white;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+h1 {}
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 90vh; height: 30vh;
+    /*background-color: cyan;*/
+    }
+/* --------------------------------------- */
+.BOX{height: 30vh; width: 30vh;
+/* --------------------------------------- */
+    position: relative;
+    float: left;
+    text-align: center;
+    /*outline: 0.5px solid #badba8;*/
+    outline: 1px solid rgb(150,150,150);
+/* --------------------------------------- */
+    opacity: 0;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    background-color: rgb(30,30,30,)
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.BOX h2{
+    /*height: 2.6vh; width: 14vw; font-size: 2.2vh; line-height: 2.2vh;*/
+/* --------------------------------------- */
+    font-weight: 900;
+    color: rgb(200,200,200);
+    text-shadow: 1px 0 0 rgb(30,30,30), -1px 0 0 rgb(30,30,30), 0 1px 0 rgb(30,30,30), 0 -1px 0 rgb(30,30,30), 
+    1px 1px rgb(30,30,30), -1px -1px 0 rgb(30,30,30), 1px -1px 0 rgb(30,30,30), -1px 1px 0 rgb(30,30,30)
+
+    ,1px 0 25px rgb(60,60,60), -1px 0 25px rgb(60,60,60), 0 1px 25px rgb(60,60,60), 0 -1px 25px rgb(60,60,60), 
+    1px 1px 25px rgb(60,60,60), -1px -1px 25px rgb(60,60,60), 1px -1px 25px rgb(60,60,60), -1px 1px 25px rgb(60,60,60);
+
+    position: absolute;
+    bottom: 1.5vh;
+/* --------------------------------------- */
+    overflow: hidden;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+    justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* ----------- COLONNE LIENS ------------- */
+.BOX img{
+    height: 30vh; width: 30vh;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+    filter: brightness(90%);
+/* ------ smooth hover effect ------------ */
+    transition: 0.3s;
+/* --------------------------------------- */
+    background-color: rgb(150,150,150);
+    }
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+/*.VERT{position: absolute; top: 0;}*/
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+.BOX img:hover{
+    filter: brightness(120%);
+    }
+/* --------------------------------------- */
+#EMPTY{}
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PORTRAIT 1 ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 60vw;height: 90vw;}
+/* --------------------------------------- */
+.BOX{height: 30vw; width: 30vw;}
+.BOX img{height: 30vw; width: 30vw;}
+/* --------------------------------------- */
+.BOX h2{height: 2vw; width: 30vw; font-size: 1.8vw; line-height: 2vw;bottom: 2vw;}
+/* --------------------------------------- */
+}
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PAYSAGE 1 ------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 1024px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 75vw; height:50vw;}
+/* --------------------------------------- */
+.BOX{height: 25vw; width: 25vw;}
+.BOX img{height: 25vw; width: 25vw;}
+/* --------------------------------------- */
+.BOX h2{height: 2vw; width: 25vw; font-size: 1.8vw; line-height: 2vw; bottom: 2vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PAYSAGE 2 ------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 1112px) /*and (max-width: 359px)*/ {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 54vw; height:36vw; 
+    }
+/* --------------------------------------- */
+.BOX{height: 18vw; width: 18vw;}
+.BOX img{height: 18vw; width: 18vw;}
+.BOX h2{height: 2vw; width: 18vw; font-size: 1.4vw; line-height: 2vw; bottom: 2vh;
+    }
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ FIN RESPONSIVE ----------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------- 2021/04 --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */

@@ -1,0 +1,116 @@
+/* --------------------------------------- */
+/* -------------- MAIN 75VH -------------- */
+/* --------------------------------------- */
+main{
+    background-image: url("LCH_imgs/LCH-WRKSHP-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+#CONTENU{
+    height: 75vh;
+	width: 75vh;
+/* --------------------------------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+	}
+/* --------------------------------------- */
+main h2{
+    padding-top:2vh;
+    color: rgb(0,38,77);
+    text-shadow: 0.2vh 0.2vh 0.2vh rgb(255,251,230), -0.2vh -0.2vh 0.2vh rgb(255,251,230);
+    font-size: 2.4vh;
+    font-weight: 900;
+    line-height: 3vh; 
+    margin-bottom: 1vh;
+	}
+/* --------------------------------------- */
+main p{
+    color: rgb(0,38,77);
+    text-shadow: 0.2vh 0.2vh 0.2vh rgb(255,251,230), -0.2vh -0.2vh 0.2vh rgb(255,251,230);
+    font-size: 2vh;
+    font-weight: 900;
+    line-height: 3vh;
+    margin-top: 1vh;
+	}
+/* --------------------------------------- */
+/* ------------ FIN MAIN 75VH ------------ */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/*   320 (x480) / 320 (x568) / 375 (x667)  */
+/*   414 (x736) / 600 (x800) / 768 (x1024) */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 320px) and (max-width: 767px){
+/* -------------- MAIN 75VH -------------- */
+#CONTENU{
+    width: 75vw;
+    }
+/* --------------------------------------- */
+main h2{
+    padding-top:2vw;
+    text-shadow: 0.2vw 0.2vw 0.2vw white, -0.2vw -0.2vw 0.2vw white;
+    font-size: 2.8vw;
+    line-height: 3.4vw; 
+    margin-bottom: 1vw;
+    }
+/* --------------------------------------- */
+main p{
+    text-shadow: 0.2vw 0.2vw 0.2vw white, -0.2vw -0.2vw 0.2vw white;
+    font-size: 2.4vw;
+    line-height: 3.4vw;
+    margin-top: 1vw;
+    }
+/* -------------- MAIN 75VH -------------- */
+@media screen and (min-width: 800px){
+}
+/* --------------------------------------- */
+/* @media screen and (min-width: 320px) and (max-width: 374px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 375px) and (max-width: 413px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 414px) and (max-width: 599px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 600px) and (max-width: 767px){} */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/*   (X320) 480 / (X320) 568 / (X375) 667  */
+/*   (X414) 736 / (X600) 800 / (X768) 1024 */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 480px){
+/* -------------- MAIN 75VH -------------- */
+#CONTENU{
+    width: 75vh;
+    }
+/* --------------------------------------- */
+main h2{
+    padding-top:2vh;
+    text-shadow: 0.2vh 0.2vh 0.2vh white, -0.2vh -0.2vh 0.2vh white;
+    font-size: 2.4vh;
+    line-height: 3vh; 
+    margin-bottom: 1vh;
+    }
+/* --------------------------------------- */
+main p{
+    text-shadow: 0.2vh 0.2vh 0.2vh white, -0.2vh -0.2vh 0.2vh white;
+    font-size: 2vh;
+    line-height: 3vh;
+    margin-top: 1vh;
+    }
+/* -------------- MAIN 75VH -------------- */
+} 
+/* ----------- FIN RESPONSIVE ------------ */
+/* --------------------------------------- */
+/* ----------- 2020/10/22 ---------------- */
+/* --------------------------------------- */

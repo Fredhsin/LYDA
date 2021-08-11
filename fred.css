@@ -1,0 +1,83 @@
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{width: 100vw; height: 100vh;
+    position: absolute;
+    top: 0vh;}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */ 
+.intro{
+    height: 100%;
+    width: 100%; 
+    margin: auto;
+    background: url(fred_imgs/012_2000_WIDE.jpg) no-repeat;
+    background-size: auto 100%;
+/* --------- width - height ----- */
+ 	background-position: center center;
+/* ------------------------------ */
+    /*background-color: red;*/
+/* ------------------------------ */
+    }
+/* ------------------------------ */
+.intro{
+	opacity: 0;
+        -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: ANIM;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;  
+    }
+@keyframes ANIM {
+    0%   {opacity: 0;}
+    25%   {opacity: 0;}
+    40%   {opacity: .1;}
+    50%   {opacity: .3;}
+    100% {opacity: 1;}
+    }
+/* ------------------------------ */
+.btn{
+    position: absolute;
+    margin:0 auto;
+    top: 73%;
+    left:44%;
+    width: 12%;
+    height: 10%;
+    background-image: url(fred_imgs/IN_button.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 6vh;
+    }
+/* ----------------------------- */
+.btn:hover{
+	filter: brightness(300%);
+	}
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px){
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+.btn{background-size: auto 12vw;} 
+
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 480px){
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+} 
+/* --------------------------------------- */
+/* ----------- 2018/12 ------------------- */
+/* --------------------------------------- */

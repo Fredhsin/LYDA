@@ -1,0 +1,160 @@
+/* -------- MENU COULEUR TITRES --------- */
+#FRED_MAIN p{color: rgb(30,30,30);}
+#ARCHI p, #TROISDUN p, #TROISDDEUX p, #DEUXD p{
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+    justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    /*background-color: orange;*/
+/* --------------------------------------- */
+    }
+/* ----------- RANGEES ICONES ------------ */
+.ROW{height: 22vh;
+    width: auto;
+    margin-top: 0.5vh;
+    margin-bottom:0.5vh;
+/* --------------------------------------- */ 
+    position: relative;
+    opacity: 0;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: yellow;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.LOGOS-TEHUS, .LOGOS-LYDA, .LOGOS-SHEM{
+    width: 17vh;
+    height: 17vh;
+ 	margin-left: 0.5vh;
+ 	margin-right: 0.5vh;
+    border: solid 1px yellow;
+    }
+/* --------------------------------------- */
+.LOGOS-TEHUS{
+    background-color: rgba(204, 255, 204,.5);
+    }
+/* --------------------------------------- */
+.LOGOS-LYDA{
+    background-color: rgba(255, 153, 51,1);
+    }
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px){
+/* --------------------------------------- */
+main{position: absolute; top: 10vh; left: 20vw; width:60vw;
+/* --------------------------------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+.ROW{height: auto; width: 100vw;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    /*background-color: red;*/ 
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.LOGOS-TEHUS, .LOGOS-LYDA, .LOGOS-SHEM{
+    width: 17vw;
+    height: 17vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    float: left;
+    }
+/* ----------- FIN MAIN ------------------ */      
+}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px){
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+.ROW{height: 22vh;
+    float: left;
+/* --------------------------------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.LOGOS-TEHUS, .LOGOS-LYDA, .LOGOS-SHEM{
+    width: 17vh;
+    height: 17vh;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;}
+/* ----------- FIN MAIN ------------------ */        
+} 
+/* ----------- FIN RESPONSIVE ------------ */ 
+/* --------------------------------------- */
+/* ----------- 2018/07 ------------------- */
+/* --------------------------------------- */

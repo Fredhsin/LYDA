@@ -1,0 +1,107 @@
+/* --------------------------------------- */
+/* -------------- MAIN 75VH -------------- */
+/* --------------------------------------- */
+main{
+    height: 75vh;
+    width: 90vh;
+    background-color: rgb(230,230,230);
+/* --------------------------------------- */
+	 	display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+    flex-direction: row;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+    justify-content: center;
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+main h2{
+    color: rgb(30,30,30);
+    font-size: 2.2vh;
+    line-height: 3vh; 
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    }
+/* --------------------------------------- */
+main img{
+	margin: 2vh;
+	border: 0.2vh solid yellow;
+	box-shadow: 0vh 0vh 2vh black;
+	}
+.HORI{
+	height: 30vh;
+	width: 45vh;
+	}
+.VERT{
+	height: 45vh;
+	width: 30vh;
+	}
+/* --------------------------------------- */
+/* ------------ FIN MAIN 75VH ------------ */
+/* --------------------------------------- */
+
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/*   320 (x480) / 320 (x568) / 375 (x667)  */
+/*   414 (x736) / 600 (x800) / 768 (x1024) */
+/* --------------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 800px){
+/* -------------- MAIN 75VH -------------- */
+main{
+    height: 75vh;
+    width: 100vw;
+    }
+/* --------------------------------------- */
+main img{
+	margin: 2vw;
+	border: 0.2vw solid yellow;
+	box-shadow: 0vw 0vw 2vw black;
+	}
+.HORI{
+	height: 30vw;
+	width: 45vw;
+	}
+.VERT{
+	height: 45vw;
+	width: 30vw;
+	}
+/* -------------- MAIN 75VH -------------- */
+}
+/* --------------------------------------- */
+/* @media screen and (min-width: 280px) and (max-width: 599px){} */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/*   (X320) 480 / (X320) 568 / (X375) 667  */
+/*   (X414) 736 / (X600) 800 / (X768) 1024 */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 480px){
+/* -------------- MAIN 75VH -------------- */
+main{
+    height: 75vh;
+    width: 90vh;
+    }
+/* --------------------------------------- */
+main img{
+	margin: 2vh;
+	border: 0.2vh solid yellow;
+	box-shadow: 0vh 0vh 2vh black;
+	}
+.HORI{
+	height: 30vh;
+	width: 45vh;
+	}
+.VERT{
+	height: 45vh;
+	width: 30vh;
+	}
+/* -------------- MAIN 75VH -------------- */
+}
+/* ----------- FIN RESPONSIVE ------------ */
+/* --------------------------------------- */
+/* ----------- 2018/04/10 ---------------- */
+/* --------------------------------------- */

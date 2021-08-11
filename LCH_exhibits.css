@@ -1,0 +1,157 @@
+/* --------------------------------------- */
+/* -------------- MAIN 75VH -------------- */
+/* --------------------------------------- */
+main p{
+    line-height: 2.4vh;	
+    font-size: 2vh; 
+    color: rgb(30,30,30);
+	}
+.ROW{
+    height: 50vh;
+    width: 68vh;
+/* --------------------------------------- */
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+    flex-direction: row;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+    justify-content: center;
+    /* --- horizontal --- */
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+    align-items: center;
+    /* --- vertical --- */
+	}
+.COL-UN, .COL-DEUX{
+	width: 32vh;
+	height: 50vh;
+	background-color: rgb(180,180,180);
+	float: left;
+	border: 0.3vh solid rgb(60,60,60);
+/* --------------------------------------- */
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+    flex-direction: column;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+    justify-content: center;
+    /* --- horizontal --- */
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+    align-items: center;
+    /* --- vertical --- */
+/* --------------------------------------- */
+	}
+/* --------------------------------------- */
+#KAOSHIUNG{
+	box-shadow: 0vh 0vh 3vh black;
+	border: 0.2vh solid yellow;
+	background-image: url("LCH_imgs/2016-Kaoshiung.jpg");
+	background-size: 23vh 35vh;
+	display: block;
+	width: 23vh;
+	height: 35vh;
+	}
+#KAOSHIUNG:hover{
+	background-image: url("LCH_imgs/2016-Kaoshiung-Br.jpg");}
+/* --------------------------------------- */
+#PARIS{
+	width: 23vh;
+	height: 35vh;
+	box-shadow: 0vh 0vh 3vh black;
+	border: 0.2vh solid yellow;
+	}
+/* --------------------------------------- */
+/* ------------ FIN MAIN 75VH ------------ */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/*   320 (x480) / 320 (x568) / 375 (x667)  */
+/*   414 (x736) / 600 (x800) / 768 (x1024) */
+/* --------------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 800px){
+/* -------------- MAIN 75VH -------------- */
+main p{
+    line-height: 2.4vw;	
+    font-size: 2vw; 
+	}
+.ROW{
+    height: 50vw;
+    width: 68vw;
+	}
+.COL-UN, .COL-DEUX{
+	width: 32vw;
+	height: 50vw;
+	border: 0.3vw solid rgb(60,60,60);
+	}
+#KAOSHIUNG{
+	box-shadow: 0vw 0vw 3vw black;
+	border: 0.2vw solid yellow;
+	background-size: 23vw 35vw;
+	display: block;
+	width: 23vw;
+	height: 35vw;
+	}
+#PARIS{
+	width: 23vw;
+	height: 35vw;
+	box-shadow: 0vw 0vw 3vw black;
+	border: 0.2vw solid yellow;
+	}
+/* -------------- MAIN 75VH -------------- */
+}
+/* --------------------------------------- */
+/* @media screen and (min-width: 320px) and (max-width: 374px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 375px) and (max-width: 413px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 414px) and (max-width: 599px){} */
+/* --------------------------------------- */
+/* @media screen and (min-width: 600px) and (max-width: 767px){} */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/*   (X320) 480 / (X320) 568 / (X375) 667  */
+/*   (X414) 736 / (X600) 800 / (X768) 1024 */
+/* --------------------------------------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 1023px){
+/* -------------- MAIN 75VH -------------- */
+main p{
+    line-height: 2.4vh;	
+    font-size: 2vh; 
+	}
+.ROW{
+    height: 50vh;
+    width: 68vh;
+	}
+.COL-UN, .COL-DEUX{
+	width: 32vh;
+	height: 50vh;
+	border: 0.3vh solid rgb(60,60,60);
+	}
+#KAOSHIUNG{
+	box-shadow: 0vh 0vh 3vh black;
+	border: 0.2vh solid yellow;
+	background-size: 23vh 35vh;
+	display: block;
+	width: 23vh;
+	height: 35vh;
+	}
+#PARIS{
+	width: 23vh;
+	height: 35vh;
+	box-shadow: 0vh 0vh 3vh black;
+	border: 0.2vh solid yellow;
+	}
+/* -------------- MAIN 75VH -------------- */
+} 
+/* ----------- FIN RESPONSIVE ------------ */
+/* --------------------------------------- */
+/* ----------- 2018/04/11 ---------------- */
+/* --------------------------------------- */

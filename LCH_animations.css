@@ -1,0 +1,167 @@
+/* --------------------------------------- */
+/* -------------- MAIN 75VH -------------- */
+/* --------------------------------------- */
+main h2{
+    color: rgb(30,30,30);
+    font-size: 2.2vh;
+    font-weight: 500;
+    line-height: 2.5vh; 
+    margin-bottom: 2vh;
+    }
+/* --------------------------------------- */
+.YOUT{
+    text-decoration: none;
+    color: rgb(255, 102, 0);
+    font-size: 2.2vh;
+    font-weight: 700;
+    line-height: 2.5vh; 
+    margin-bottom: 2vh;
+    }
+.YOUT:hover{
+    color: rgb(204, 0, 0);
+    }
+/* --------------------------------------- */
+main p{
+    color: rgb(30,30,30);
+    font-size: 1.8vh;
+    font-weight: 500;
+    line-height: 2vh;
+    margin-top: 1vh;
+    }
+.CONT-VDO-TH{
+	height: 16vh;
+	width: 70vh;
+	float: left;
+/* --------------------------------------- */
+	 	display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	/*background-color: yellow;*/
+	}
+.VDO-TH{
+	height: 16vh;
+	width: 20vh;
+/* --------------------------------------- */
+	 	display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	/*background-color: orange;*/
+	}
+.un, .deux, .trois, .quatre, .cinq, .six, .sept{
+	background-position: center center;
+	background-size: 14.20vh 10vh;
+	height: 10vh;
+	width: 14.20vh;
+    border: 2px solid white;
+    box-shadow: 
+    0.5vh 0.5vh 3vh rgb(150,150,150), 
+    -0.5vh -0.5vh 3vh rgb(150,150,150), 
+    -0.5vh 0.5vh 3vh rgb(150,150,150), 
+    0.5vh -0.5vh 3vh rgb(150,150,150), 
+    0.5vh 0.5vh rgb(150,150,150), 
+    -0.5vh -0.5vh rgb(150,150,150), 
+    -0.5vh 0.5vh rgb(150,150,150), 
+    0.5vh -0.5vh rgb(150,150,150);
+	}
+.CONT-VDO-TH a:hover{
+    border: 2px solid yellow;
+    box-shadow: none;
+    }
+.un{
+	background-image: url("LCH_videos/E-01.png");
+	}
+.deux{
+	background-image: url("LCH_videos/E-02.png");
+	}
+.trois{
+	background-image: url("LCH_videos/E-03.png");
+	}
+.quatre{
+	background-image: url("LCH_videos/E-04.png");
+	}
+.cinq{
+	background-image: url("LCH_videos/E-05.png");
+	}
+.six{
+	background-image: url("LCH_videos/E-06.png");
+	}
+.sept{
+	background-image: url("LCH_videos/E-07.png");
+	}
+/* --------------------------------------- */
+/* ------------ FIN MAIN 75VH ------------ */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px){
+/* -------------- MAIN 75VH -------------- */
+main h2{
+    font-size: 2.2vw;
+    font-weight: 500;
+    line-height: 2.5vw; 
+    margin-bottom: 2vw;
+    }
+/* --------------------------------------- */
+.YOUT{
+    font-size: 2.2vw;
+    line-height: 2.5vw; 
+    margin-bottom: 2vw;
+    }
+/* --------------------------------------- */
+main p{
+    font-size: 1.8vw;
+    line-height: 2vw;
+    margin-top: 1vw; 
+    }
+.CONT-VDO-TH{
+	height: 20vw;
+	width: 90vw;
+	}
+.VDO-TH{
+	height: 20vw;
+	width: 20vw;
+	}
+.un, .deux, .trois, .quatre, .cinq, .six, .sept{
+	background-size: 14.20vw 10vw;
+	height: 10vw;
+	width: 14.20vw;
+    border: 2px solid white;
+    box-shadow: 
+    0.5vw 0.5vw 3vw rgb(150,150,150), 
+    -0.5vw -0.5vw 3vw rgb(150,150,150), 
+    -0.5vw 0.5vw 3vw rgb(150,150,150), 
+    0.5vw -0.5vw 3vw rgb(150,150,150), 
+    0.5vw 0.5vw rgb(150,150,150), 
+    -0.5vw -0.5vw rgb(150,150,150), 
+    -0.5vw 0.5vw rgb(150,150,150), 
+    0.5vw -0.5vw rgb(150,150,150);
+	}
+/* -------------- MAIN 75VH -------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px){
+} 
+/* ----------- FIN RESPONSIVE ------------ */
+/* --------------------------------------- */
+/* ----------- 05/08/2020 ---------------- */
+/* --------------------------------------- */

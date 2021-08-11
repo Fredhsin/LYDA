@@ -1,0 +1,236 @@
+/* -------- MENU COULEUR TITRES --------- */
+#FRED_MAIN p{color: rgb(30,30,30);}
+#ARCHI p, #TROISDUN p, #TROISDDEUX p, #DEUXD p{
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: rgb(200,200,200)*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 150vh; height: 60vh;
+/* --------------------------------------- */
+    /*background-color: cyan;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H {height: 14vw; width: 14vw;
+/* --------------------------------------- */
+    position: relative;
+    float: left;
+    text-align: center;
+/* --------------------------------------- */
+    outline: 1px solid rgb(150,150,150);
+/* --------------------------------------- */
+    opacity: 0;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    background-color: rgb(200,200,200)
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.BOX h2, .BOX-H h2 {
+    height: 2.6vh; width: 14vw; font-size: 2.2vh; line-height: 2.2vh;
+/* --------------------------------------- */
+    font-weight: 900;
+    color: rgb(200,200,200);
+    text-shadow: 1px 0 0 rgb(30,30,30), -1px 0 0 rgb(30,30,30), 0 1px 0 rgb(30,30,30), 0 -1px 0 rgb(30,30,30), 
+    1px 1px rgb(30,30,30), -1px -1px 0 rgb(30,30,30), 1px -1px 0 rgb(30,30,30), -1px 1px 0 rgb(30,30,30)
+
+    ,1px 0 25px rgb(60,60,60), -1px 0 25px rgb(60,60,60), 0 1px 25px rgb(60,60,60), 0 -1px 25px rgb(60,60,60), 
+    1px 1px 25px rgb(60,60,60), -1px -1px 25px rgb(60,60,60), 1px -1px 25px rgb(60,60,60), -1px 1px 25px rgb(60,60,60)
+
+    ,1px 0 45px rgb(120,120,120), -1px 0 45px rgb(120,120,120), 0 1px 45px rgb(120,120,120), 0 -1px 45px rgb(120,120,120), 
+    1px 1px 45px rgb(120,120,120), -1px -1px 45px rgb(120,120,120), 1px -1px 45px rgb(120,120,120), -1px 1px 45px rgb(120,120,120);
+
+    position: absolute;
+    bottom: 1.5vh;
+
+    overflow: hidden;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+    justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* ----------- COLONNE LIENS ------------- */
+.BOX a, .BOX-H a {
+    height: 14vw; width: 14vw;
+/* ------ smooth hover effect ------------ */
+    transition: 0.3s;
+/* --------------------------------------- */
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+/* --------------------------------------- */
+.BOX a{background-size: auto 100%;
+        }
+/* --------------------------------------- */
+.BOX-H a{background-size: 100% auto;
+        }
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+/*.VERT{position: absolute; top: 0;}*/
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+.BOX a:hover, .BOX-H a:hover{
+    filter: brightness(120%);
+    }
+/* --------------------------------------- */
+/* ---------------- IDIOTES -------------- */
+/* ---------------- HORIZONTAL ----------- */
+#ISLAND{background-image: url("fred_3dworks/imgs_idiotes/island_400.png");}
+
+#FART{background-image: url("fred_3dworks/imgs_idiotes/idiotes_fart_engine.jpg");}
+
+#BALANCE{background-image: url("fred_3dworks/imgs_idiotes/idiotes_roller.jpg");}
+
+#VENUS{background-image: url("fred_3dworks/imgs_idiotes/idiotes_snow_venus.jpg");}
+#BOOK{background-image: url("fred_3dworks/imgs_idiotes/idiotes_book.jpg");}
+#RETREAT{background-image: url("fred_3dworks/imgs_idiotes/idiotes_secret_retreat.jpg");}
+#MEANING{background-image: url("fred_3dworks/imgs_idiotes/idiotes_meaning.jpg");}
+#ID_AIR-IDIOTES{background-image: url("fred_3dworks/imgs_idiotes/idiotes_turbowc.jpg");}
+#ID_TCHERNOBILL{background-image: url("fred_3dworks/imgs_idiotes/idiotes_run.jpg");}
+/* --------------------------------------- */
+#ID-ZOMBIES{background-image: url("fred_3dworks/imgs_idiotes/idiotes-zombies.jpg");}
+#ID-AI{background-image: url("fred_3dworks/imgs_idiotes/idiotes-ai.jpg");}
+#ID-DONUT{background-image: url("fred_3dworks/imgs_idiotes/donut_400.jpg");}
+/* --------------------------------------- */
+/* ---------------- IDIOTES -------------- */
+/* ---------------- VERTICAL ------------- */
+#BADDAY{background-image: url("fred_3dworks/imgs_idiotes/idiotes_bad_day.jpg");}
+#DONOTENTER{background-image: url("fred_3dworks/imgs_idiotes/idiotes_do_not_enter.jpg");}
+
+#KNOWLEDGE{background-image: url("fred_3dworks/imgs_idiotes/idiotes_knowledge.jpg");}
+#BATHTUB{background-image: url("fred_3dworks/imgs_idiotes/idiotes_bathtub.jpg");}
+#ID_STUCK{background-image: url("fred_3dworks/imgs_idiotes/idiotes_dream_I.jpg");}
+#ID_AT-SEA_II{background-image: url("fred_3dworks/imgs_idiotes/idiotes_monster.jpg");}
+#ID_AT-SEA_I{background-image: url("fred_3dworks/imgs_idiotes/idiotes_mermaid.jpg");}
+/* --------------------------------------- */
+#ID_S-DISCOVERY{background-image: url("fred_3dworks/imgs_idiotes/idiotes_mirror.jpg");}
+#ID_MYSTERY{background-image: url("fred_3dworks/imgs_idiotes/idiotes_mystery.jpg");}
+/* --------------------------------------- */
+#ID-STAIRS{background-image: url("fred_3dworks/imgs_idiotes/idiotes-stairs.jpg");}
+#ID-ART{background-image: url("fred_3dworks/imgs_idiotes/idiotes-art.jpg");}
+#ID-ADDICT{background-image: url("fred_3dworks/imgs_idiotes/idiotes-addict.jpg");}
+#ID-ANVIL{background-image: url("fred_3dworks/imgs_idiotes/idiotes_anvil.jpg");}
+#ID-ME{background-image: url("fred_3dworks/imgs_idiotes/me-06.jpg");}
+#ID-END{background-image: url("fred_3dworks/imgs_idiotes/idiotes_end.jpg");}
+/* --------------------------------------- */
+/* ------------ EMPTY BOX ---------------- */
+#EMPTY{background-color: rgb(200,200,200)}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) and (max-width: 359px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 75vw; height: 100vw;
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 25vw; width: 25vw;}
+
+.BOX a, .BOX-H a{height: 25vw; width: 25vw;}
+
+.BOX h2, .BOX-H h2{height: 2vw; width: 25vw; font-size: 1.8vw; line-height: 2vw;
+/* --------------------------------------- */
+    position: absolute;
+    bottom: 2vh;
+    }
+}
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 360px){
+/* --------------------------------------- */
+/* ------------ MAIN PORTRAIT ------------ */
+/* --------------------------------------- */
+main{top: 5vh;}
+/* --------------------------------------- */
+.CONTAINER-2DI{
+    width: 90vw;
+    height: 120vw;
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 30vw; width: 30vw;}
+.BOX a, .BOX-H a{height: 30vw; width: 30vw;}
+.BOX h2, .BOX-H h2{height: 2vw; width: 21vw; font-size: 1.8vw; line-height: 2vw; bottom: 2vh;
+    }
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 1024px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 95vw; height:40vw; 
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 19vw; width: 19vw;}
+.BOX a, .BOX-H a{height: 19vw; width: 19vw;}
+.BOX h2, .BOX-H h2{height: 2vw; width: 19vw; font-size: 1.8vw; line-height: 2vw; bottom: 2vh;
+    }
+}
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 1025px) /*and (max-width: 359px)*/ {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 80vw; height:36vw; 
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 16vw; width: 16vw;}
+.BOX a, .BOX-H a{height: 16vw; width: 16vw;}
+.BOX h2, .BOX-H h2{height: 2vw; width: 16vw; font-size: 1.8vw; line-height: 2vw; bottom: 2vh;
+    }
+}
+/* --------------------------------------- */
+/* ------------ FIN RESPONSIVE ----------- */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* --------------- 2021/04 --------------- */
+/* --------------------------------------- */

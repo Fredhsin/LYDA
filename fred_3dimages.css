@@ -1,0 +1,233 @@
+/* -------- MENU COULEUR TITRES --------- */
+#FRED_MAIN p{color: rgb(30,30,30);}
+#ARCHI p, #TROISDUN p, #TROISDDEUX p, #DEUXD p{
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: rgb(200,200,200)*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 150vh; height: 60vh;
+/* --------------------------------------- */
+    /*background-color: cyan;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{
+    height: 14vw; width: 14vw;
+/* --------------------------------------- */
+    position: relative;
+    float: left;
+    text-align: center;
+/* --------------------------------------- */
+    outline: 1px solid rgb(120,120,120);
+/* --------------------------------------- */
+    opacity: 0;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    }
+/* --------------------------------------- */ 
+.BOX h2, .BOX-H h2{
+    /*height: 2.6vh; width: 14vw; font-size: 2.2vh; line-height: 2.2vh;*/
+/* --------------------------------------- */
+    font-weight: 900;
+    color: rgb(200,200,200);
+    text-shadow: 1px 0 0 rgb(30,30,30), -1px 0 0 rgb(30,30,30), 0 1px 0 rgb(30,30,30), 0 -1px 0 rgb(30,30,30), 
+    1px 1px rgb(30,30,30), -1px -1px 0 rgb(30,30,30), 1px -1px 0 rgb(30,30,30), -1px 1px 0 rgb(30,30,30)
+
+    ,1px 0 25px rgb(60,60,60), -1px 0 25px rgb(60,60,60), 0 1px 25px rgb(60,60,60), 0 -1px 25px rgb(60,60,60), 
+    1px 1px 25px rgb(60,60,60), -1px -1px 25px rgb(60,60,60), 1px -1px 25px rgb(60,60,60), -1px 1px 25px rgb(60,60,60);
+
+    position: absolute;
+    bottom: 1.5vh;
+
+    overflow: hidden;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+    justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* --------------- LIENS ----------------- */
+.BOX a, .BOX-H a{
+    height: 14vw; width: 14vw;
+/* --------------------------------------- */
+/* ------ smooth hover effect ------------ */
+/* --------------------------------------- */
+    transition: 0.3s;
+/* --------------------------------------- */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(180,180,180); 
+/* --------------------------------------- */
+    /*background-size: 10% 10%;*/
+    }
+/* --------------------------------------- */
+.BOX a{
+    background-size: auto 100%;
+    }
+.BOX-H a{
+    background-size: 100% auto;
+    }
+/* --------------------------------------- */
+.BOX a:hover, .BOX-H a:hover{
+    filter: brightness(130%);
+    }
+/* --------------------------------------- */
+#ARCHIVES{background-size: 10vh; background-color: rgb(220,220,220);}
+/* --------------------------------------- */
+#GLASS{background-image: url("fred_3dworks/imgs_contests/GWine_Skull-93.jpg");}
+#ICS{background-image: url("fred_3dworks/imgs_contests/IceCream_Shop.jpg");}
+#FMOB{background-image: url("fred_3dworks/imgs_contests/future_mobility.jpg");}
+#KALI{background-image: url("fred_3dworks/imgs_contests/kali.jpg");}
+#BUNKER{background-image: url("fred_3dworks/imgs_contests/bunker.jpg");}
+
+#CHILD-B{background-image: url("fred_3dworks/imgs_contests/child_brides.jpg");}
+#CAN_Y{background-image: url("fred_3dworks/imgs_contests/can_you_afford_it.jpg");}
+#INNOCENCE{background-image: url("fred_3dworks/imgs_contests/innocence.jpg");}
+#HUMAN{background-image: url("fred_3dworks/imgs_contests/human_and_technology.jpg");}
+#WORLD-I{background-image: url("fred_3dworks/imgs_contests/world_heritage_1.jpg");}
+
+#FUTUR{background-image: url("fred_3dworks/imgs_contests/futur.jpg");}
+/*#HOME{background-image: url("fred_3dworks/imgs_contests/my_home.jpg");}*/
+#CLIFF{background-image: url("fred_3dworks/imgs_contests/cliff.jpg");}
+#SLC{background-image: url("fred_3dworks/imgs_contests/SL_Caricature.jpg");}
+/*#SAFE{background-image: url("fred_3dworks/imgs_contests/safety_and_security.jpg");}*/
+#ADDICT{background-image: url("fred_3dworks/imgs_contests/addiction.jpg");}
+#WORLD-II{background-image: url("fred_3dworks/imgs_contests/world_heritage_2.jpg");}
+
+#TEOT{background-image: url("fred_3dworks/imgs_contests/the_end_of_t.jpg");}
+#TRTBF{background-image: url("fred_3dworks/imgs_contests/the_right_to_be.jpg");}
+#WWF{background-image: url("fred_3dworks/imgs_contests/wwf_2016.jpg");}
+#MAN{background-image: url("fred_3dworks/imgs_contests/man_and_science.jpg");}
+#LIBERTE{background-image: url("fred_3dworks/imgs_contests/liberte.jpg");}
+
+/* --------------------------------------- */
+#ARCHIVES{background-image: url("fred_imgs/archive_03.png");}
+/* --------------------------------------- */ 
+
+/* --------------------------------------- */
+/* ------------ EMPTY BOX ---------------- */
+#EMPTY{background-color: rgb(180,180,180);}
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ----------- FIN ANIMATION CONT -------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PORTRAIT 1 ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) and (max-width: 359px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 75vw; height: 100vw;}
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 25vw; width: 25vw;}
+.BOX a, .BOX-H a{height: 25vw; width: 25vw;}
+/* --------------------------------------- */
+.BOX h2, .BOX-H h2{height: 2.4vw; width: 25vw; font-size: 2.2vw; line-height: 2.4vw; bottom: 0;
+/* --------------------------------------- */
+    position: absolute;
+    bottom: 2vh;
+    }
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PORTRAIT 2 ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px){
+/* --------------------------------------- */
+/* ------------ MAIN PORTRAIT ------------ */
+/* --------------------------------------- */
+main{top: 5vh;}
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 90vw;height: 120vw;}
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 30vw; width: 30vw;}
+.BOX a, .BOX-H a{height: 30vw; width: 30vw;}
+/* --------------------------------------- */
+.BOX h2, .BOX-H h2{height: 2.4vw; width: 25vw; font-size: 2.2vw; line-height: 2.4vw; bottom: 0;
+    }
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PAYSAGE 1 ------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 1024px) {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 100vw; height:40vw; 
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 20vw; width: 20vw;}
+.BOX a, .BOX-H a{height: 20vw; width: 20vw;}
+.BOX h2, .BOX-H h2{height: 2vw; width: 20vw; font-size: 1.8vw; line-height: 2vw; bottom: 0;
+    }
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ---------- RESPONSIVE PAYSAGE 2 ------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 1025px) /*and (max-width: 359px)*/ {
+/* --------------------------------------- */
+.CONTAINER-2DI{width: 90vw; height:36vw; 
+    }
+/* --------------------------------------- */
+.BOX, .BOX-H{height: 18vw; width: 18vw;}
+.BOX a, .BOX-H a{height: 18vw; width: 18vw;}
+.BOX h2, .BOX-H h2{height: 2vw; width: 18vw; font-size: 1.4vw; line-height: 2vw; bottom: 0;
+    }
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ FIN RESPONSIVE ----------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------- 2021/04 --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */

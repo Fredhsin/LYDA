@@ -1,0 +1,309 @@
+/* --------------------------------------- */
+*{margin: 0 auto; padding: 0;}
+/* --------------------------------------- */
+/* ------------ EXACT HEIGHT ------------- */
+/* --------------------------------------- */
+html{height: 100vh;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;}
+/* --------------------------------------- */
+/* ------------ EXACT HEIGHT ------------- */
+/* --------------------------------------- */ 
+
+/* --------------- BODY ------------------ */
+body{height: 100vh;
+	text-align: center;
+/* ----------- DEFAULT FONT -------------- */
+    font-family: 'Coming Soon', cursive;
+    font-weight: 100;
+    background-color: #A9A8AD;
+/* --------------------------------------- */
+	/*position: relative;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+/* ------------ HEADER ------------------- */
+/* --------------------------------------- */
+header{
+    height: 15vh;
+    width: 100%;
+/* --------------------------------------- */
+    /*background-color: cyan;*/
+/* ----------- FLEX ---------------------- */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /*align-items: center;*/
+/* ------------- PRE-ANIMATION ----------- */
+    opacity: 0;
+/* --------------------------------------- */
+    }
+#HEADER-TITLES {
+    width:80%;
+/* --------------------------------------- */
+    /*background-color: yellow;*/
+/* --------------------------------------- */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+/* --------------------------------------- */
+.FRED {
+    width:10%;
+/* --------------------------------------- */
+    /*background-color: red;*/
+/* --------------------------------------- */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+/* --------------------------------------- */
+header h1{
+    font-family: 'Joti One', cursive;
+    font-size: 9vh;
+    font-weight: 900;
+    line-height: 10vh;
+    color: rgb(60,60,60);
+    }
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+header a{
+    height: 5vh; 
+    line-height: 5vh;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(150,150,150);
+/* --------------------------------------- */
+    /*background-color: cyan;*/
+/* --------------------------------------- */
+    }
+header a i{
+    font-size: 5vh; 
+    }
+/* --------------------------------------- */
+header a:hover{
+    color: rgb(100,100,100);
+    }
+/* --------------------------------------- */
+/* ------------- ANIMATION HEADER -------- */
+/* --------------------------------------- */
+header{
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-name: HEADER-anim;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    }
+@keyframes HEADER-anim {
+    0%   {opacity: 0;}
+    50%  {opacity: 0.1;}   
+    100% {opacity:1;}
+    }
+/* --------------------------------------- */
+/* ----------- FIN HEADER ---------------- */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+    height: 82vh;
+    width: 100%;
+    /*background-color: #A9A8AD;*/
+    /*background-color: orange;*/
+/* --------------------------------------- */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/* ------------- PRE-ANIMATION ----------- */
+    opacity: 0;
+/* --------------------------------------- */
+    overflow: hidden;
+    }
+main img{
+    height: 82vh;
+    width: 100%;
+    /*background-color: green;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------- ANIMATION MAIN -------- */
+/* ------------- DELAI : 0S -------------- */
+/* ------------- DUREE : 1.5S ------------ */
+/* --------------------------------------- */
+main {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-name: MAIN-anim;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    }
+@keyframes MAIN-anim {
+    0%   {opacity: 0;}
+    50%  {opacity: 0.1;}   
+    100% {opacity:1;}
+    }
+/* --------------------------------------- */
+/* ----------- FIN HEADER ---------------- */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ FIN MAIN ----------------- */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ---------- FOOTER 3VH ----------------- */
+/* --------------------------------------- */
+footer{
+    height: 3vh; 
+    width: 100vw;
+/* --------------------------------------- */
+	position: absolute;
+	bottom: 0;
+/* --------------------------------------- */
+   /* background-color: white;*/
+/* --------------------------------------- */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+/* --------------------------------------- */
+/* ------------- PRE-ANIMATION ----------- */
+    opacity: 0;
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+footer div{
+    height: 3vh; 
+    width: 33.33%;
+    /*background-color: white;*/
+    }
+/* --------------------------------------- */
+.CENTER{
+/* --------------------------------------- */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+footer p{
+    width: auto; 
+	font-size: 2vh; 
+    line-height: 3vh;
+	color: white;
+/* --------------------------------------- */
+    /*background-color: orange;*/
+/* ----- FLEX ALIGNEMENT LOGO CHK-OK------ */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/    
+/* --------------------------------------- */
+   /*background-color: red;*/
+/* --------------------------------------- */
+    }
+/* ---------------- ICONES --------------- */
+.LYDA{width: 4.5vh; height: 3vh;
+    margin:0;
+    display: inline-block;
+	padding-left: 0.5vh;}
+/* --------------------------------------- */ 
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ----------- ANIMATION FOOTER ---------- *//* --------------------------------------- */
+/* ------------ DELAI : 3.0S ------------- *//* --------------------------------------- */
+/* ------------ DUREE : 2.0S ------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+footer{
+        -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-name: FOOTER-ANIM;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;  
+    }
+@keyframes FOOTER-ANIM {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+    }
+/* --------------------------------------- *//* --------------------------------------- */
+/* ----------- FIN ANIMATION FOOTER ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/* --------------------------------------- */
+@media screen and (orientation: portrait)  and (min-width: 240px){
+/* ------------ HEADER PORTRAIT ---------- */
+header h1{font-size: 9vw; line-height: 10vw;}
+header a{
+    height: 5vw; 
+    line-height: 5v;
+    text-decoration: none;
+    font-weight: 900w;
+    color: rgb(150,150,150);
+/* --------------------------------------- */
+    /*background-color: cyan;*/
+/* --------------------------------------- */
+    }
+header a i{
+    font-size: 5vw; 
+    }
+/* ------------ MAIN PORTRAIT ------------ */
+main img{height: auto; width: 100%;}
+/* ------------ FOOTER PORTRAIT ---------- */
+footer p {font-size: 2.6vw; line-height: 3vw;}
+/* ---------------- ICONES --------------- */
+/*.LYDA, .ARROW{width: 3.5vw; height: 2vw;}*/
+.LYDA{width: 5vw; height: 3vw;}
+/* --------------------------------------- */
+.LYDA{padding-left: 0.5vw;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+@media screen and (orientation: portrait)  and (min-width: 768px){
+main img{height: auto; width: 70%;}
+footer p{font-size: 2vw;}
+}
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------i------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px){
+/* ------------ HEADER PAYSAGE ----------- */
+header h1{font-size: 9vh;line-height: 10vh;}
+
+/* ------------ MAIN PAYSAGE ------------- */
+
+
+/* ------------ FOOTER PAYSAGE ----------- */
+footer p {font-size: 2.4vh; line-height: 3vh;}
+/* ---------------- ICONES --------------- */
+.LYDA{width: 4.5vh; height: 3vh; padding-left: 0.5vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 1025px){
+footer p{font-size: 2vh; line-height: 3vh;}
+}
+/* --------------------------------------- */
+/* ----------- 2020/10 ------------------- */
+/* --------------------------------------- */

@@ -1,0 +1,227 @@
+/* -------- MENU COULEUR TITRES --------- */
+#FRED_MAIN p{color: rgb(30,30,30);}
+#ARCHI p, #TROISDUN p, #TROISDDEUX p, #DEUXD p{
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: rgb(200,200,200)*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+/* -------- SPECIFIQUE TITRE H1 ---------- */
+/* --------------------------------------- */
+h1 {}
+/* --------------------------------------- */
+.CONTAINER{width: 150vh; height: 60vh;
+   /*background-color: cyan;*/
+    }
+/* --------------------------------------- */
+/* --------------------------------------- */
+/* --------------------------------------- */ 
+.BOX{height: 30vh; width: 30vh;
+/* --------------------------------------- */
+    position: relative;
+    float: left;
+    text-align: center;
+    outline: 1px solid rgb(150,150,150);
+/* --------------------------------------- */
+    opacity: 0;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */ 
+    /*background-color: rgb(200,200,200)*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.BOX h2{height: 2.6vh; width: 30vh; font-size: 2.2vh; line-height: 2.2vh;
+/* --------------------------------------- */
+    font-weight: 900;
+    color: rgb(255,255,255);
+/* --------------------------------------- */
+    text-shadow: 1px 0 0 rgb(30,30,30), -1px 0 0 rgb(30,30,30), 0 1px 0 rgb(30,30,30), 0 -1px 0 rgb(30,30,30), 
+    1px 1px rgb(30,30,30), -1px -1px 0 rgb(30,30,30), 1px -1px 0 rgb(30,30,30), -1px 1px 0 rgb(30,30,30),
+
+    1px 0 10px rgb(60,60,60), -1px 0 10px rgb(60,60,60), 0 1px 10px rgb(60,60,60), 0 -1px 10px rgb(60,60,60), 
+    1px 1px 10px rgb(60,60,60), -1px -1px 10px rgb(60,60,60), 1px -1px 10px rgb(60,60,60), -1px 1px 10px rgb(60,60,60);
+/* --------------------------------------- */
+    position: absolute;
+/* --------------------------------------- */
+    overflow: hidden;
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+    justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* ----------- COLONNE LIENS ------------- */
+.BOX a{
+    height: 30vh; width: 30vh; background-size: cover;
+
+    filter: brightness(100%);
+/* ------ smooth hover effect ------------ */
+    transition: 0.3s;
+/* --------------------------------------- */
+    /*border: 1px solid yellow;*/
+    /*border: 1px solid white;*/
+/* --------------------------------------- */
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+#ARCHIVES{background-size: 10vh; background-color: rgb(220,220,220);}
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+.VERT{position: absolute; top: 0;}
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+.BOX a:hover{
+    filter: brightness(130%);
+    }
+/* --------------------------------------- */
+/* ------------ 3DMODELS THUMBS ---------- */
+/* ---------------- VERTICAL ------------- */
+#ARCHIVES{background-image: url("fred_imgs/archive_03.png"); 
+/*background-color: rgba(255,255,255,.08);*/
+}
+
+#B-WIDOW{background-image: url("fred_3dworks/thumbs_3d-models/bwidow_th.png");}
+#HOPLITES{background-image: url("fred_3dworks/thumbs_3d-models/coming_soon_th.png");}
+#CYCLOPS{background-image: url("fred_3dworks/thumbs_3d-models/cyclops_th.png");}
+
+#EINSTEIN{background-image: url("fred_3dworks/thumbs_3d-models/einstein_th.png");}
+#FRANK{background-image: url("fred_3dworks/thumbs_3d-models/frank_th.png");}
+#MERMAID{background-image: url("fred_3dworks/thumbs_3d-models/mermaid_th.png");}
+#KALI{background-image: url("fred_3dworks/thumbs_3d-models/kali_th.png");}
+#TROISDWUN{background-image: url("fred_3dworks/thumbs_3d-models/froderella_th.png");}
+#TCHERNOBILL{background-image: url("fred_3dworks/thumbs_3d-models/tchernobill_th.png");}
+#IDIOTES{background-image: url("fred_3dworks/thumbs_3d-models/idiotes_th.png");}
+#TROISDFBEAR{background-image: url("fred_3dworks/thumbs_3d-models/fbear_th.png");}
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px) and (max-width: 359px) {
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+.CONTAINER{width: 75vw; height: 100vw;
+    }
+/* --------------------------------------- */
+.BOX{height: 25vw; width: 25vw;}
+
+.BOX a{height: 25vw; width: 25vw;}
+/* --------------------------------------- */
+/* ------------ TITRES BOX --------------- *//* --------------------------------------- */
+/* --------------------------------------- */
+.BOX h2{height: 2.4vw; width: 25vw; font-size: 2.2vw; line-height: 2.4vw; bottom: 2vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 360px){
+/* --------------------------------------- */
+/* ------------ MAIN PORTRAIT ------------ */
+/* --------------------------------------- */
+main{top: 5vh;}
+/* --------------------------------------- */
+.CONTAINER{
+    width: 90vw;
+    height: 120vw;
+    /*top: 0;
+    left: 5vw;*/
+    }
+/* --------------------------------------- */
+.BOX{height: 30vw; width: 30vw;}
+.BOX a{height: 30vw; width: 30vw;}
+/* --------------------------------------- */
+/* ------------ TITRES BOX --------------- *//* --------------------------------------- */
+/* --------------------------------------- */
+.BOX h2{height: 2.4vw; width: 30vw; font-size: 2.2vw; line-height: 2.4vw; bottom: 2vh;}
+/* --------------------------------------- */
+}
+
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------- RESPONSIVE PAYSAGE 1 -------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 320px) and (max-width: 1111px) {
+/* --------------------------------------- */
+.CONTAINER{width: 100vw; height:40vw;}
+/* --------------------------------------- */
+.BOX{height: 20vw; width: 20vw;}
+.BOX a{height: 20vw; width: 20vw;}
+/* --------------------------------------- */
+/* ------------ TITRES BOX --------------- *//* --------------------------------------- */
+/* --------------------------------------- */
+.BOX h2{height: 2vw; width: 20vw; font-size: 1.8vw; line-height: 2vw; bottom: 2vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* --------- RESPONSIVE PAYSAGE 2 -------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 1112px) {
+/* --------------------------------------- */
+/*main{width: 100vw;}
+/* --------------------------------------- */
+.CONTAINER{width: 90vw; height:36vw;}
+/* --------------------------------------- */
+.BOX{height: 18vw; width: 18vw;}
+.BOX a{height: 18vw; width: 18vw;}
+/* --------------------------------------- */
+/* ------------ TITRES BOX --------------- *//* --------------------------------------- */
+/* --------------------------------------- */
+.BOX h2{height: 2vw; width: 20vw; font-size: 1.4vw; line-height: 2vw; bottom: 2vh;}
+/* --------------------------------------- */
+}
+/* --------------------------------------- *//* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- *//* --------------------------------------- */
+/* --------------------------------------- *//* --------------------------------------- */
+
+/* --------------------------------------- */
+/* --------------- 2019/04 --------------- */
+/* --------------------------------------- */

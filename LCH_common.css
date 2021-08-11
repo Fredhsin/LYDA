@@ -1,0 +1,411 @@
+html{height: 100vh;}
+/* --------------------------------------- */
+*{  margin: 0 auto;
+    padding: 0;}
+/* --------------------------------------- */ 
+body{
+    width: 100vw;
+    height: 100vh;
+	text-align: center;
+/* ----------- DEFAULT FONT -------------- */
+    font-family: 'Coming Soon', cursive;
+    font-weight: 100;
+    background-color: rgb(245,245,245);
+/* ----------- FLEX ---------------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    }
+/* --------------------------------------- */
+/* ------------ HEADER 20VH -------------- */
+/* --------------------------------------- */
+header{
+    height: 20vh;
+    width: 90vh;
+    background-color: rgb(215,215,215);
+/* --------------------------------------- */
+    /*background-color: yellow;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+.SIDE{
+    height: 20vh;
+    width: 9.5vh;
+    float: left;
+/* --------------------------------------- */
+    /*background-color: orange;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+#HEADER-TITLES{
+    height: 20vh;
+    width: 71vh;
+    float: left;
+/* --------------------------------------- */
+    /*background-color: red;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+#HEADER-TITLES p{
+    font-family: 'Joti One', cursive;
+    font-size: 7vh;
+    font-weight: 900;
+    line-height: 8vh;
+    color: rgb(60,60,60);
+    padding-top: 2vh;
+/* --------------------------------------- */
+    /*background-color: orange;*/
+/* --------------------------------------- */
+	}
+/* --------------------------------------- */
+@font-face {
+    font-family: 'anke_calligraphregular';
+    src: url('fonts/anke-calligraph/ankecall-webfont.woff2') format('woff2'),
+         url('fonts/anke-calligraph/ankecall-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+/* --------------------------------------- */
+#HEADER-TITLES h1{
+    font-family: 'anke_calligraphregular', cursive;
+	font-size: 6vh;
+    line-height: 7vh;
+	font-weight: 100;
+	color: red;
+    padding-top: 1vh;
+/* --------------------------------------- */
+    /*background-color: yellow;*/
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+/* --------------- MENU ------------------ */
+/* --------------------------------------- */
+.MENU {
+    padding: 3vh 0vh 3vh 0vh;
+    /* TOP RIGHT BOTTOM LEFT */
+    position: absolute;
+/* sinon décalage du contenu vers le bas */
+    z-index: 1;
+    color: rgb(90,90,90);
+    float: left;
+    }
+/* --------------------------------------- */
+#HB{
+    margin-left: 3vh;
+    height: 14vh;
+    width: 3vh;
+    border: solid 0.25vh rgb(90,90,90);
+    float: left;
+    }
+/* --------------------------------------- */
+.animate-un{
+    -webkit-transition: border 2s, background-color 2s;
+    transition: border 2s, background-color 2s, opacity 2s, color 2s; 
+    }
+/* --------------------------------------- */
+#HB p{
+    font-size: 2.4vh;
+    padding: 0.4vh; 
+    font-family: 'Joti One', cursive;
+    }
+/* --------------------------------------- */
+#SPE a {
+    width: 18vh;
+    padding: 0.4vh;
+    float: left;
+    text-align: left;
+    text-decoration: none;  
+    font-size: 2vh;
+    color: rgb(60,60,60);
+    display: inline-block;
+    border: dotted 0.2vh rgba(150,150,150);
+    }
+/* --------------------------------------- */
+#HB:hover {
+    border: solid 0.25vh rgb(150,150,150);
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0);
+    border: solid 0.25vh rgba(255,255,255,0);
+    }
+/* --------------------------------------- */
+#SPE a:hover {
+    color: rgb(250,250,250);
+    background-color: rgba(120,120,120,0.5);
+    }
+/* --------------------------------------- */
+#SPE{
+    position: relative;
+/* --------------------------------------- */
+    /*left: -3vh;*/
+/* --------------------------------------- */
+    left: -3vh;
+    top: -17vh;
+/* --------------------------------------- */
+    opacity: 0;
+    height: auto;
+    width: 18vh;
+    }
+/* --------------------------------------- */
+#HB:hover #SPE{
+    opacity: 1;
+    }
+/* --------------------------------------- */
+.animate-deux{
+    -webkit-transition: opacity 2s; /* Safari */
+    transition: opacity 2s; 
+    }
+/* --------------------------------------- */
+/* --------------- MENU ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ---------- FIN HEADER 20VH ------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ----------- MAIN ---------------------- */
+/* --------------------------------------- */
+main{
+    height: 75vh;
+    width: 90vh;
+    background-color: rgb(230,230,230);
+/* --------------------------------------- */
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+    display: flex;
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+    flex-direction: column;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+    justify-content: center;
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+    align-items: center;
+/* --------------------------------------- */
+    }
+/* --------------------------------------- */
+/* ----------- FIN MAIN ------------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------- FOOTER 5VH -------------- */
+/* --------------------------------------- */
+footer{
+    height: 5vh;
+    width: 90vh;
+    background-color: rgb(215,215,215);
+/* ---------------- FLEX ----------------- */
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+    flex-direction: row;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+    justify-content: space-between;
+    } 
+/* ----------- COPYRIGHT + LYDA ---------- */
+.COPYRIGHT{
+    height: 3.5vh;
+    padding-top: 1vh;
+    width: 60%;
+/* ---------------- FLEX ----------------- */
+    display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+    flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+    justify-content: center;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+footer p{
+    margin:0;
+    display: inline-block; 
+    font-size: 1.8vh; 
+    line-height: 2vh;
+    color: rgb(30,30,30);
+    }
+.LOGO{
+    margin:0;
+    display: inline-block;
+    width: 5.4vh;
+    height: 2.8vh;
+    padding-left: 0.5vh; 
+    }     
+/* --------------------------------------- */
+/* ----------- FIN FOOTER 5VH ------------ */
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE --------------- */
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PORTRAIT ------ */
+/*   320 (x480) / 320 (x568) / 375 (x667)  */
+/*   414 (x736) / 600 (x800) / 768 (x1024) */
+/* --------------------------------------- */
+@media screen and (orientation: portrait) and (min-width: 240px){
+/* ------------ HEADER 20VH -------------- */
+header{
+    height: 20vh;
+    width: 100vw;
+    }
+.SIDE{
+    height: 20vh;
+    width: 9.5vw;
+    }
+#HEADER-TITLES{
+    height: 20vh;
+    width: 81vw;
+    }
+#HEADER-TITLES h1{
+    font-size: 6vw;
+    line-height: 7vh;
+	}
+#HEADER-TITLES p{
+	font-size: 7vw;
+    line-height: 8vh;
+    }
+/* --------------- MENU ------------------ */
+.MENU {
+	padding: 3vh 0vh 3vh 0vh;
+    }
+#HB{
+	margin-left: 3vh;
+	height: 14vh;
+    width: 3vh;
+    border: solid 0.25vh rgb(90,90,90);
+	}
+#HB p{
+	font-size: 2.4vh;
+	padding: 0.4vh; 
+	}
+#SPE a {
+	width: 16vh;
+	padding: 0.4vh;
+	font-size: 2vh;
+    border: dotted 0.2vh rgba(150,150,150);
+    }
+#HB:hover {
+    border: solid 0.25vh rgb(150,150,150);
+	}
+#SPE{
+	left: -3vh;
+    width: 16vh;
+	}
+/* --------------- MENU ------------------ */
+
+/* ---------- FIN HEADER 20VH ------------ */
+
+/* ----------- MAIN ---------------------- */
+main{
+    height: 75vh;
+    width: 100vw;
+    }
+/* ----------- FIN MAIN ------------------ */
+
+/* ------------- FOOTER 5VH -------------- */
+footer{
+    height: 5vh;
+    width: 100vw; 
+    }
+/* ----------- COPYRIGHT + LYDA ---------- */
+.COPYRIGHT{
+    height: 3.5vh;
+    padding-top: 1vh;
+    }
+footer p{
+    font-size: 1.8vh; 
+    line-height: 2vh;
+    color: rgb(30,30,30);
+    }
+.LOGO{
+    width: 5.4vh;
+    height: 2.8vh;
+    padding-left: 0.5vh; 
+    }     
+/* ----------- FIN FOOTER 5VH ------------ */
+}
+/* --------------------------------------- */
+
+/* --------------------------------------- */
+/* ------------ RESPONSIVE PAYSAGE ------- */
+/* --------------------------------------- */
+@media screen and (orientation: landscape) and (min-width: 480px){
+/* ------------ HEADER 20VH -------------- */
+header{
+    height: 20vh;
+    width: 90vh;
+    }
+/* --------------------------------------- */
+.SIDE{
+    height: 20vh;
+    width: 9.5vh;
+    }
+/* --------------------------------------- */
+#HEADER-TITLES{
+    height: 20vh;
+    width: 71vh;
+    }
+/* --------------------------------------- */
+#HEADER-TITLES h1{
+	font-size: 6vh;
+    line-height: 7vh;
+    }
+/* --------------------------------------- */
+#HEADER-TITLES p{
+	font-size: 7vh;
+    line-height: 8vh;
+    }
+/* ---------- FIN HEADER 20VH ------------ */
+
+/* ----------- MAIN ---------------------- */
+main{
+    height: 75vh;
+    width: 90vh;
+    }
+/* ----------- FIN MAIN ------------------ */
+
+/* ------------- FOOTER 5VH -------------- */
+footer{
+    height: 5vh;
+    width: 90vh; 
+    }
+/* ----------- COPYRIGHT + LYDA ---------- */
+.COPYRIGHT{
+    height: 3.5vh;
+    padding-top: 1vh;
+    }
+/* --------------------------------------- */
+footer p{
+    font-size: 1.8vh; 
+    line-height: 2vh;
+    color: rgb(30,30,30);
+    }
+/* --------------------------------------- */
+.LOGO{
+    width: 5.4vh;
+    height: 2.8vh;
+    padding-left: 0.5vh; 
+    }     
+/* ----------- FIN FOOTER 5VH ------------ */
+} 
+/* --------------------------------------- */
+/* ----------- 2020/08/02 ---------------- */
+/* --------------------------------------- */
